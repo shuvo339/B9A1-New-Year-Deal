@@ -116,3 +116,36 @@
     height: 450;
 }
 /* party banner ends */
+.portfolio{
+    text-align: left;
+}
+.portfolio-gift{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 48px;
+    max-width: 900px;
+}
+.portfolio-img{
+    border-radius: 16px;
+    display: flex;
+}
+.portfolio-img .col{
+    flex: 33.33%;
+    padding: 5px;
+}
