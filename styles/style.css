@@ -149,6 +149,10 @@
     flex: 33.33%;
     padding: 5px;
 }
+.portfolio-img img:hover{
+    border: 6px solid grey;
+    border-radius: 16px;
+}
 /* newsletter style start */
 .newsletter{
     margin: 120px auto;
@@ -199,6 +203,7 @@
     border: none;
     outline: none;
 }
+/* footer styles starts */
 footer{
     max-width: 1600px;
     background-color: #070211;
@@ -256,4 +261,97 @@ footer{
     font-weight: 500;
     border: none;
     background-color: transparent;
+}
+
+/* schedule style starts */
+.schedule{
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    font-family: Inter;
+}
+
+.item-red{
+    color: #F00 !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+.schedule-item{
+    color: #070211;
+    font-size: 28px;
+    font-weight: 600;
+}
+.schedule-items{
+    padding: 100px 0 48px;
+}
+.join-now-btn{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.schedule-btn{
+    padding-bottom: 120px;
+}
+
+/* promo styles starts */
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    margin-bottom: 120px;
+}
+.promo-offer{
+    max-width: 380px;
+}
+.promo-offer-heading{
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.promo-offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.promo-offer-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.promo-ney-year{
+    max-width: 270px;
+    font-family: Inter;
+}
+.promo-year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.promo-descripion{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.promo-ney-year img{
+    width: 140px;
+    height: 140px;
+}
+.promo-img img{
+    height: 360px;
+    width: 360px;
+    border-radius: 460px 460px;
+    border: 15px solid #F00;
+
 }
