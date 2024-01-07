@@ -149,3 +149,111 @@
     flex: 33.33%;
     padding: 5px;
 }
+/* newsletter style start */
+.newsletter{
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.newsletter-img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 40px;
+}
+.newsletter-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+.newsletter-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 200px 48px;
+}
+.newsletter-subcription{
+    padding-bottom: 80px;
+}
+.newsletter-email{
+    width: 450px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    background-color: #FFF;
+    font-size: 20px;
+    padding-left: 25px;
+    border: none;
+}
+.subscribe-btn{
+    width: 170px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+footer{
+    max-width: 1600px;
+    background-color: #070211;
+    margin: 0 auto;
+}
+
+.contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 280px 50px 120px;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+#address{
+    max-width: 375px;
+}
+.line{
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 0 140px;
+    height: 3px;
+    border: none;
+}
+.line:hover{
+    border:2px solid blue;
+} 
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 140px 120px;
+}
+.unsubscribe-btn{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
