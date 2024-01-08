@@ -345,13 +345,50 @@ footer{
     padding-bottom: 30px;
 }
 .promo-ney-year img{
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
 }
 .promo-img img{
     height: 360px;
     width: 360px;
     border-radius: 460px 460px;
-    border: 15px solid #F00;
-
+    border: 1px solid #fff;
+    outline: 12px solid red;
+    outline-offset: 15px;
+}
+/* holiday sale starts  */
+.holiday-sale{
+    margin: 120px auto;
+}
+.sale-text{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.sale-heading{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.sale-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+}
+.sale-title-red{
+    color: #F00 !important;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.sale-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom:60px;
 }
