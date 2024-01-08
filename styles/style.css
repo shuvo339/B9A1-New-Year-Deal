@@ -190,6 +190,8 @@
     font-size: 20px;
     padding-left: 25px;
     border: none;
+    margin-right: -2px;
+    outline: none;
 }
 .subscribe-btn{
     width: 170px;
@@ -390,5 +392,36 @@ footer{
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
-    padding-bottom:60px;
+    padding-bottom:50px;
+}
+/* sale-imgs start */
+.sale-imgs{
+    height : 540px;
+    background-image: url('../assests/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1320px 140px;
+}
+.img-box{
+    width:600px;
+    height:500px;
+    position: relative;
+    top:60px;
+    left: 50px;
+}
+.img-girl{
+    width:400px;
+    height:400px;
+    position:relative;
+    top:-100px;
+    left:62px;
+    z-index: 1;
+}
+.img-offer{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top:-180px;
+    left:180px;
+    z-index: 2;
 }
